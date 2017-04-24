@@ -2,10 +2,14 @@
 <p id= "notice"><%= notice %></p>
 <% end %>
 
+
+<%= render @cart %>
+
+
 <h2>Your pawn cart</h2>
 <ul>
 	<% @cart.line_items.each do |item| %>
-	<li><%= item.product.title %></li>
+	<li><%= item.quantity %> &times; <%= item.product.title %></li>
 	<% end %>
 
 </ul>
