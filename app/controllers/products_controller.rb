@@ -7,6 +7,12 @@ class ProductsController < ApplicationController
     @products = Product.all
   end
 
+  def who_brought
+    @product = Product.find(params[:id])
+    respond_to do |format|
+      format.atom
+    end 
+  end
   # GET /products/1
   # GET /products/1.json
   def show
