@@ -92,11 +92,14 @@
 .depot_form {
   
   fieldset {
-    background: #efe;
+    background: #f5f5f5;
+   /* background: #efe; */
 
     legend {
-      color: #dfd;
-      background: #141;
+      /* color: #dfd; */
+      /* background: #141; */
+      color: #333333;
+      background: #CDCDCD;
       font-family: sans-serif;
       padding: 0.2em 1em;
     }

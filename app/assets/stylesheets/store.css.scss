@@ -13,7 +13,7 @@
 
 	/* An entry in the store catalog */
 
-	.entry {
+  .entry {
 	overflow: auto;
 	margin-top: 1em;
 	border-bottom: 1px dotted #77d;
@@ -35,24 +35,23 @@
 	color: #227;
 	}
 
-	p, div.price_line {
+   p, div.price_line {
 	margin-left: 100px;
 	margin-top: 0.5em;
 	margin-bottom: 0.8em;
 
-
-	form, div{
+	form, div {
 	display: inline;
 	}
-	}
+  }
 
-	.price{
+  .price {
 	color: #44a;
 	font-weight: bold;
 	margin-right: 3em;
 	}
-
-	}
-
-
+  }
 }
+
+
+  
